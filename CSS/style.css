@@ -48,7 +48,8 @@ nav ul li a:hover {
 }
 
 .carousel-img {
-    max-height: 300px;
+    max-height: 280px;
+    width: auto;
     object-fit: contain;
     display: block;
     margin: 0 auto;
@@ -141,6 +142,11 @@ nav ul li a:hover {
     transform: scale(1.1);
 }
 
+@media (max-width: 768px) {
+    .carousel-img {
+        max-height: 200px;
+    }
+}
 
 main {
     max-width: 900px;
