@@ -104,11 +104,11 @@ nav ul li a:hover {
 } 
 
 .carousel-inner img {
-    width: 50%;             /* Limita el ancho de las imágenes al 50% del contenedor */
-    max-height: 300px;      /* Limita la altura máxima de las imágenes */
-    object-fit: cover;      /* Mantiene la relación de aspecto sin distorsión */
-    margin: 0 auto;         /* Centra las imágenes */
-    display: block;
+    width: 50%;               /* Limita el ancho de las imágenes a la mitad del contenedor */
+    max-height: 100px;        /* Limita la altura máxima de las imágenes */
+    height: auto;             /* Mantiene la relación de aspecto */
+    margin: 0 auto;           /* Centra las imágenes dentro del contenedor */
+    display: block;           /* Asegura que las imágenes se comporten como un bloque */
 }
 
 .carousel-item img {
