@@ -1,1 +1,11 @@
 wireframe/
+# Ignorar Sass y archivos de mapa de CSS
+*.scss
+*.map
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Carpeta de configuración local de VSCode
+.vscode/
