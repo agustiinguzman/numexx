@@ -103,13 +103,12 @@ nav ul li a:hover {
     background-color: rgba(255, 255, 255, 0.9);
 } 
 
-.carousel-inner {
-    padding-bottom: 50px; 
-    width: 100%;
-    max-height: 150px;
-    overflow : hidden;
-    object-fit: cover;
-    
+.carousel-inner img {
+    width: 50%;             /* Limita el ancho de las imágenes al 50% del contenedor */
+    max-height: 300px;      /* Limita la altura máxima de las imágenes */
+    object-fit: cover;      /* Mantiene la relación de aspecto sin distorsión */
+    margin: 0 auto;         /* Centra las imágenes */
+    display: block;
 }
 
 .carousel-item img {
